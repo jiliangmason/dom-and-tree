@@ -1,0 +1,142 @@
+* {
+    font-family: "Microsoft YaHei UI", sans-serif;
+    font-size: 14px;
+}
+
+div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid;
+    background-color: white;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.root {
+    width: 1500px;
+    height: 400px;
+    margin: 10px auto;
+    border-color: fuchsia;
+}
+
+.child1_1, .child1_2, .child1_3 {
+    border-color: yellowgreen;
+    height: 350px;
+}
+
+.child1_1 {
+    width: 780px;
+}
+
+.child1_2 {
+    width: 600px;
+}
+
+.child1_3 {
+    width: 30px;
+}
+
+.child2_1, .child2_2, .child2_3, .child2_4, .child2_5 {
+    border-color: deepskyblue;
+    height: 300px;
+}
+
+.child2_1 {
+    width: 370px;
+}
+
+.child2_2 {
+    width: 40px;
+}
+
+.child2_3 {
+    width: 200px;
+}
+
+.child2_4 {
+    width: 300px;
+}
+
+.child2_5 {
+    width: 200px;
+}
+
+.child3_1, .child3_2, .child3_3, .child3_4, .child3_5, .child3_6, .child3_7, .child3_8, .child3_9 {
+    border-color: #ff6600;
+    height: 250px;
+}
+
+.child3_1 {
+    width: 40px;
+}
+
+.child3_2 {
+    width: 200px;
+}
+
+.child3_3 {
+    width: 50px;
+}
+
+.child3_4 {
+    width: 80px;
+}
+
+.child3_5 {
+    width: 80px;
+}
+
+.child3_6 {
+    width: 50px;
+}
+
+.child3_7 {
+    width: 70px;
+}
+
+.child3_8 {
+    width: 70px;
+}
+
+.child3_9 {
+    width: 70px;
+}
+
+.child4_1, .child4_2, .child4_3, .child4_4, .child4_5 {
+    border-color: blueviolet;
+    height: 200px;
+}
+
+.select {
+    text-align: center;
+    border-radius: 20px;
+}
+
+button {
+    margin: 20px;
+    outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: darkgray;
+    color: coral;
+    border: 3px;
+}
+
+#cntvlive2-is-installed {
+    display: none;
+}
