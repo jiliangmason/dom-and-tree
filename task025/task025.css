@@ -1,0 +1,111 @@
+span {
+    margin: 0px;
+    padding: 0px;
+}
+
+#tree-module {
+    display: inline-block; //删除？
+    width: 400px;
+    position: relative;
+    left: 50%;
+    margin-left: -200px;
+}
+
+#delete-btn {
+    margin-left: 10px;
+}
+
+#result {
+    font-size: 14px;
+    font-family: "Microsoft Sans Serif";
+    text-align: center;
+    height: 16px;
+}
+
+.nodebody-visible {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin: 5px 18px;
+    background-color: white;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.nodebody-hidden {
+    display: none;
+}
+
+.arrow {
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.right-arrow {
+    width: 0px;
+    height: 0px;
+    border-left: 10px solid #6898c2;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    cursor: pointer;
+}
+
+.down-arrow {
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid #6898c2;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    cursor: pointer;
+}
+
+.empty-arrow {
+    border-left: 10px solid transparent;
+}
+
+.node-title {
+    font-family: "Microsoft Sans Serif";
+    font-size: 14px;
+    color: #6898c2;
+    line-height: 1.5em;
+}
+
+.node-title:hover {
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.node-title-highlight {
+    color: red;
+    font-weight: bold;
+}
+
+.addIcon:hover, .deleteIcon:hover {
+    cursor: pointer;
+}
+
+.addIcon, .deleteIcon {
+    display: none;
+    vertical-align: top;
+}
+
+.node-header:hover>.addIcon, .node-header:hover>.deleteIcon {
+    display: inline;
+}
+
+br {
+    clear: both;
+}
+
+legend {
+    font-family: "黑体";
+    font-size: 20px;
+}
+
+.root, fieldset {
+    float: left;
+}
+
+/*.root .node-hidden .down-arrow .right-arrow*/
+
